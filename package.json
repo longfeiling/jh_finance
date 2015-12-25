@@ -1,0 +1,32 @@
+{
+  "name": "jh_finance",
+  "version": "1.0.0",
+  "description": "weixin of jh finance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weixin",
+    "finance"
+  ],
+  "author": "Feeling",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-runtime": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "browser-sync": "^2.10.1",
+    "file-loader": "^0.8.5",
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.5",
+    "html-loader": "^0.4.0",
+    "style-loader": "^0.13.0",
+    "template-html-loader": "0.0.3",
+    "vue": "^1.0.12",
+    "vue-loader": "^7.3.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
