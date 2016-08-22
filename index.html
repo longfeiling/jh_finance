@@ -1,32 +1,526 @@
-
 <!DOCTYPE html>
-<html><head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>几何金融</title>
-    <!-- <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"> -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>几何金融</title>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link href="css/css/style.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+<script src="scripts/jquery214.min.js"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
 
-   
+<style type="text/css">
+    .nav>li>a:focus{
+      background-color: transparent;
+    }
+</style>
+<script type="text/javascript">
+  $(document).ready(function(){
+  $(".client").mousemove(function(e){
+    $(".xuanfu").show();
+  });
+});
+  $(document).ready(function(){
+  $(".client").mouseleave(function(e){
+    $(".xuanfu").hide();
+  });
+});
 
+  $(document).ready(function(){
+  $(".wxbox").mousemove(function(e){
+    $(".weixin-xuanfu").show();
+  });
+});
+  $(document).ready(function(){
+  $(".wxbox").mouseleave(function(e){
+    $(".weixin-xuanfu").hide();
+  });
+});
+</script>
+</head>
+<body>
+<div class="whole-box">
+  <div class="nav">
+    <div>
+      <hr style="width:100%;border:none;border-top:2px solid #956c3d; margin-top:0px;margin-bottom:0px;" />
+    </div>
+    <div class="navigation">
+      <div class="nav-content" id="header">
+        <nav class="navbar index-mynav ">
+          <div class="container topHight">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle mybtn collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
 
-    <style type="text/css">
-    body,div,p,button{margin: 0;padding: 0;}
+              <div class="index-logo">
+                <img src="images/loggd.png" class="" alt=""></div>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right" id="">
+                <li>
+                  <a href=""  calss="index-mynavli">
+                    <img src="images/tel.png" width="" height="">
+                    <span  class="yellow-color">400-133-8998</span>
+                  </a>
+                </li>
+                <li class="wxbox">
+                  <a href="#"  >
+                    <img src="images/weixin.png" width="" height=""></a>
+                </li>
+                <div class="weixin-xuanfu">
+                  <div class="sanjiao2"><img src="images/sanjiao.png" alt=""></div>
+                   <div class="dsanjiao2"><img src="images/dsanjiao.png" alt=""></div>
+                 
+                  <div class="font-xuanfu tpadding">
+                    <p class="text-center">扫描二维码</p>
+                    <p class="text-center"> 关注几何金融微信公众号<p>
+                  </div>
+                  <div class="saoimg1"><img src="images/wxscan.png" alt=""></div>
+                </div>
 
-    body{background:#262626 url(images/bg_03.png) repeat;}
-    .imgall{text-align: center;margin:25px auto;}
-  
+                <li>
+                  <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2947522348&amp;site=qq&amp;menu=yes" >
+                    <img src="images/qqimg.png" width="" height="">
+                    <span class=""></span>
+                  </a>
+                </li>
+                <li class="client">
+                  <a href="#"  class="">
+                    <img src="images/tphone.png" width="" height=""></a>
+                </li>
+                
+                 <div class="xuanfu">
+                 <div class="sanjiao1"><img src="images/sanjiao.png" alt=""></div>
+                  <div class="dsanjiao1"><img src="images/dsanjiao.png" alt=""></div>
+                  <div class="saoimg"><img src="images/client.png" alt=""></div>
+                    <div class="x-index1">
+                    <p calss="font-xuanfu">扫描二维码</p>
+                    <p class="font-xuanfu">下载几何金融APP</p>
+                    <p class="xblock xblock-color1">IOS版下载</p>
+                    <p class="xblock xblock-color1">Android版下载</p>
+                 </div>
+                </div>
 
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
 
-    </style>
-    
-    
-  </head>
-  <body>
-    <div class="imgall" >
-      <img src="images/xz.png" width="400"  alt="几何金融" />
+  <div class="container-fluid">
+    <div class="row">
+      <div class="bannerimg">
+        <img src="images/notice.png" class="img-responsive" alt=""></div>
     </div>
    
-  </body>
-</html>
+  </div>
+
+  <!-- <div class="about-us">
+  -->
+  <div class="about-content">
+    <div class="about-info">
+      <div class="row">
+        <div class="col-md-12  text-center title">关于我们</div>
+        <div class="col-md-12 text-center fontsize16 blackc">几何金融提供互联网金融信息发布服务，15天-18个月期限项目任君选择</div>
+        <div class="col-md-12 text-center fontsize16 ecolor">15 days -18 months period de project term of choice</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="introduce clearfix">
+  <div class="container">
+    
+    <div class="box1 ">
+      <img src="images/about.png" class="img-responsive flaot-right" alt=""></div>
+
+    <div class="box2 ">
+      <div class="block-style">
+        <br />
+        <br />
+        <br />
+      </div>
+      <div class="yellow1 block-style">深圳前海几何金融服务有限公司旗下的互联网金融平台</div>
+      <div class="yellow2 block-style">注册资金一亿元</div>
+      <div class="yellow3 block-style">顶级风控体系</div>
+      <div class="yellow4 block-style">让用户理财更简单</div>
+
+    
+  </div>
+  </div>
+  </div>
+
+  <div class="finace clearfix">
+    <div class="container-fluid fbox">
+      <div class="row">
+        <div class="  text-center title">理财业务</div>
+        <div class=" text-center fontsize16 blackc">投资期限多元化，涵盖15天-18个月的投资期限，满足您长中短期的需求</div>
+        <div class=" text-center fontsize16 ecolor">
+          Earn higher than the bank, the balance of treasure products investment income
+        </div>
+      </div>
+    </div>
+    <div class="container fintro">
+
+      <div class="row">
+
+        <div class="col-md-4 col-sm-12 col-xs-12 radius-limit">
+          <div class="limitboxcd text-center">
+            <img src="images/fmiddle3.png"class="img-responsive dinlinbk"alt=""></div>
+
+          <div class="fcontent fontsize16">
+            <div class="intro-font">.融资期限15天—3个月</div>
+            <div class=" intro-font">·适合工资结余、流动资金等</div>
+            <div class=" intro-font ">·100元起投资</div>
+            <div class=" intro-font">·预期年化8-10%</div>
+          </div>
+
+        </div>
+
+        <div class="col-md-4  col-sm-12 col-xs-12  radius-limit ">
+          <div class="limitboxcd text-center">
+            <img src="images/fmiddle1.png" class="img-responsive dinlinbk" alt=""></div>
+
+          <div class="fcontent fontsize16">
+            <div class="intro-font">融资期限3个月-9个月</div>
+            <div class=" intro-font">·适合中短期闲置资金</div>
+            <div class=" intro-font ">·100元起投资</div>
+            <div class=" intro-font">·预期年化10-15%</div>
+          </div>
+
+        </div>
+
+        <div class="col-md-4 col-sm-12 col-xs-12  radius-limit ">
+          <div class="limitboxcd text-center">
+            <img src="images/fmiddle2.png" class="img-responsive dinlinbk" alt=""></div>
+
+          <div class="fcontent fontsize16">
+            <div class="intro-font">· 融资期限9个月-18个月</div>
+            <div class=" intro-font">· 适合长期大额闲置资金</div>
+            <div class=" intro-font ">·100元起投资</div>
+            <div class=" intro-font">· 预期年化10-15%</div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="benefit ">
+    <div class="ppadding container ">
+      <div class="row">
+        <div class=" text-center title">选择几何金融，你能享受的是</div>
+        <div class=" text-center bin-info">预期年化10%-15%的理财收益</div>
+        <div class=" text-center bin-info">赚取高于银行定期、宝宝类产品的投资收益</div>
+        <div class=" text-center fontsize16 blackc Hight1">Expected annualized 10%-15% financial gains</div>
+      </div>
+    </div>
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-12 text-center ">
+          <img src="images/table1.png" class="img-responsive center"alt=""></div>
+      </div>
+    </div>
+
+    <div class="container text-center ">
+      <div class="tpadding">
+        <div class="row">
+          <div  class="col-md-12">
+            <p class="lHight36 font1">如果手中有1万块钱，投资几何金融和余额宝一年收益相差多少呢？</p>
+            <br />
+            <p class="lHight36 fontsize16 blackc">按照几何金融平均年化收益率在13%左右，1万块钱一年的收益为：</p>
+
+            <p class="lHight36 font2">几何金融  10000*13%=1300元</p>
+            <br />
+            <p class="lHight36 fontsize16 blackc">近期余额宝的平均七日年化收益率在2.36%左右，1万块钱一年的收益为：</p>
+            <p class="lHight36 font2">余额宝  10000*2.36%=236元</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="safe-info">
+    <div cass="container">
+      <div class="row text-center">
+        <div class="title col-xs-12">安全保障</div>
+        <div class="fontsize16 wihte Hight24 col-xs-12">几何金融致力于构建借贷风险管理体系。</div>
+        <div class="fontsize16 wihte Hight24  col-xs-12"  >依托公司高管的丰富经验，创建严格的风险管控体系。</div>
+        <div class="fontsize16 greyc Hight1 col-xs-12">
+          Relying on the rich experience of the company executives, created a strict risk management and control system.
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="safe">
+
+    <div class="danger-money">
+      <section id="danger" class="clearfix" class="img-responsive">
+
+        <div class="container ">
+          <div class="row">
+            <div class="box3 col-sm-6 col-xs-6 col-md-4">
+              <img alt="" class="img-responsive" src="images/invest.png"></div>
+
+            <div class="box4 col-sm-6 col-xs-6 col-md-5">
+              <div class=" title-block whitec">
+                <h2 class="tfont">风险备付金</h2>
+                <p class="pfont text-left">
+                  “风险备用金制度”是几何金融为了保护平台指定项目出借人的共同权益而建立的信用风险共担机制。
+                  <br />
+                  <br />
+                  当适用“风险备用金制度”的借款项目出现逾期时，平台将启动使用风险备用金服务于经认证的投资人
+                  <br />
+                  <br />
+                  出借本金及应得利息的回收，投资人无需为此支付任何费用。
+                  <br />
+                  <br />
+
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="danger-contral">
+      <section id="safe" class="img-responsive">
+
+        <div class="container ">
+          <div class="row clearfix">
+
+            <div class="col-sm-6 col-xs-6 col-md-6 padding-close">
+
+              <div class="col-sm-12 col-md-12 title-block yellowc ">
+                <h2 class="tfont1">风控审核 项目甄选</h2>
+                <p class="text-left yellowc">
+                  几何金融致力于构建借贷风险管理体系。依托公司高管的丰富经验，创建了严格的风险管控体系。
+                  <br />
+                  <br />
+                  风控团队由来自具有多年银行、担保、信贷、小额贷款经验的精英组成。
+                  <br />
+                  <br />
+                  团队成员全部拥有债权融资、股权投资、信贷风险评审、收购兼并等金融服务行业的实战经验。
+                  <br />
+                  <br />
+                  每笔项目审核必须经过严格的线下审核，由专业的审核人员验证资料真伪、实地考察后，撰写尽职调查报告及风控报告后，将其公示于网站平台。
+                  <br />
+                  <br />
+
+                </p>
+              </div>
+
+            </div>
+            <div class="col-sm-6 col-xs-6 col-md-6  rtpadding">
+              <img alt="" class="img-responsive" src="images/star.png"></div>
+
+            <div class="container">
+              <div class="row">
+                <div class="safeControl">
+                  <img src="images/safeContraol.png" class="img-responsive" alt=""></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="technology sligt-gray">
+    <div class="container ">
+      <div class="row tbHight">
+        <div class="col-md-12 text-center title">网站建设</div>
+        <div class="col-md-12 text-center title">银行级别的投资保障</div>
+        <div class="col-md-12 text-center fontsize16 blackc ">construction of website</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row ">
+        <div class="col-sm-6 col-md-5 col-lg-6">
+          <span class="icon suoimg"></span>
+          <div class="txt-block ">
+            <span>加密技术</span>
+            <span class="pfont" >省去出差搭车疲劳和交通经费</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-5 col-lg-6">
+          <span class="icon computer"></span>
+          <div class="txt-block ">
+            <span>网络安全</span>
+            <span class="pfont" >三层防火墙隔离系统，保障平台数据安全</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row file-box">
+        <div class="col-sm-6 col-md-5 col-lg-6">
+          <span class="icon wenjian"></span>
+          <div class="txt-block ">
+            <span>容灾备份</span>
+            <span class="pfont" >两个数据中心同步备份，确保数据安全</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-5 col-lg-6">
+          <span class="icon safer"></span>
+          <div class="txt-block ">
+            <span>内部保障</span>
+            <span class="pfont" >
+              公司内部不同员工设置不同权限，
+              <br />
+              防止内部工作过程中泄密客户信息
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="new-use whitec">
+    <div class="container">
+      <div class="row posi2">
+        <div class="col-md-12 text-center title">新用户专享</div>
+      </div>
+      <div class="row ">
+        <div class=" col-md-5 col-md-offset-1 col-sm-6 col-xs-6">
+          <img src="images/trycustom.png" class="img-responsive floatr" alt=""></div>
+        <div class="  col-md-5 col-md-offset-1 col-sm-6 col-xs-6">
+          <span>
+            <img src="images/xinshou.png" class="img-responsive left" alt=""></span>
+          <span>
+            <p class="font-nuser">
+              现在扫码注册
+              <br />
+              即领
+              <span class="redc">10000</span>
+              元体验金
+              <br />
+              首投后还有新手红包等你领
+            </p>
+          </span>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-index">
+    <section id="footer" class="img-responsive">
+
+      <div class="container down-border">
+        <div class="row  ftop ">
+          <div class="col-sm-4 col-sm-offset-2 col-xs-6 col-md-2 col-md-offset-4">
+            <img src="images/weixinlicai.png" class="img-responsive text-center" alt="">
+            <span class="register-font">微信理财</span>
+          </div>
+
+          <div class="col-sm-4 col-sm-offset-2 col-xs-6 col-md-5 col-md-offset-1">
+            <img src="images/touch.png" class="img-responsive text-center"alt="">
+            <span class="register-font">触屏版本</span>
+          </div>
+          <div class="text-center">
+            <div class="serv-font  text-center">
+              <p class="wihte ffont">
+                服务热线：400-133-8998
+                <p>
+                  <p class="slight-grey fontsize16">（工作日 09:00-18:00）</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="container text-center">
+            <div class="row">
+
+              <div class=" col-centered ">
+                <div class="blockT row">
+
+                  <div class="">
+                    <p class="logoT blockf1 slight-grey">友情链接:</p>
+                    <a class="" href="">
+                      <div class="logoT blockf slight-grey">国投保理</div>
+                    </a>
+                    <a class="" href="">
+                      <div class="logoT blockf slight-grey">国投供应链</div>
+                    </a>
+                    <a class="" href="">
+                      <div class="logoT blockf slight-grey">微财富</div>
+                    </a>
+                    <a class="" href="">
+                      <div class="logoT blockf slight-grey">网贷之家</div>
+                    </a>
+                    <a class="" href="">
+                      <div class="logoT blockf slight-grey">网贷天眼</div>
+                    </a>
+                    <a class="" href="">
+                      <div class="logoT blockf slight-grey">长城长富</div>
+                    </a>
+                    <a class="" href="">
+                      <div class="logoT blockf slight-grey">网贷东方</div>
+                    </a>
+                    <a class="" href="">
+                      <div class="logoT blockf slight-grey">升达林业</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="row text-center">
+              <div class="col-sm-12  slight-grey fontsize16 ">
+                <p class="paddb">
+                  Copyright 2015 www.jihe365.cn | 深圳前海几何金融服务有限公司 | 粤ICP备15092972号-1
+                </p>
+                <p class="paddb1">地址：深圳市南山区粤海街街道学府路与科园路交汇处卫星大厦1708</p>
+              </div>
+            </div>
+
+            <div class="row text-center ">
+              <div class="  text-center friendly">
+                <span>
+                  <a class="" href="">
+                    <img src="images/ipSearch.png" alt=""></a>
+                </span>
+                <span>
+                  <a class="" href="">
+                    <img src="images/honest.png" alt=""></a>
+                </span>
+                <span>
+                  <a class="" href="">
+                    <img src="images/jiandu.png"></a>
+                </span>
+                <span>
+                  <a class="" href="">
+                    <img src="images/saferlog.png" alt=""></a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+</body>
+  </html>
