@@ -100,7 +100,7 @@ html { overflow-x: hidden }
 .padding-close { padding-left: 82px; padding-top: 82px }
 .rtpadding { padding-right: 82px; padding-top: 74px }
 .box1 { width: 40%; float: left; }
-.box2 { width: 50%; float: left; }
+.box2 { width: 50%; float: left;     margin-top: 20px;}
 .flaot-right { float: right; }
 .safeControl { margin-bottom: 52px; }
 .friendly { padding-bottom: 36px; }
